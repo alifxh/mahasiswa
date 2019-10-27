@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Manage Data</title>
+</head>
+<body background="bgimg.jpg">
+	<form action="ServletSaveData" method="POST">
+		<font face="corbel light" color="black">
+			<br /><br />
+			<center>
+			MANAGE DATA <br />INPUT<br />
+			<hr width="400px" />
+			<br /><br />
+			<table border="0px">
+				<tr>
+					<td width="100px"><font color="black" face="corbel light">NIM</font></td>
+					<td><input type="text" name="nim" size="35"></td>
+				</tr>
+				<tr>
+					<td width="100px"><font color="black" face="corbel light">Nama</font></td>
+					<td><input type="text" name="nama" size="35"></td>
+				</tr><tr>
+					<td width="100px"><font color="black" face="corbel light">Jenis Kelamin</font></td>
+					<td>
+						<font color="black" face="corbel light">
+							<input type="radio" name="jk" value="Male">Male
+							&nbsp; <input type="radio" name="jk" value="Female">Female
+						</font>
+					</td>
+				</tr><tr>
+					<td width="100px"><font color="black" face="corbel light">Agama</font></td>
+					<td>
+						<select name="agama">
+							<option>Pilih Agama : </option>
+							<option value="Islam">Islam</option>
+							<option value="Katolik">Katolik</option>
+							<option value="Protestan">Protestan</option>
+							<option value="Budha">Budha</option>
+							<option value="Konguchu">Konguchu</option>
+							<option value="Hindu">Hindu</option>
+						</select>
+					</td>
+				</tr><tr>
+					<td width="100px"><font color="black" face="corbel light">Jurusan</font></td>
+					<td>
+						<select name="jurusan">
+							<option>Pilih Jurusan : </option>
+							<option value="Teknik Informatika S1">Teknik Informatika S1</option>
+							<option value="Teknik Informatika S1">Sistem Informasi S1</option>
+							<option value="Teknik Informatika S1">Teknik Elektro S1</option>
+						</select>
+					</td>
+				</tr><tr>
+					<td width="100px"><font color="black" face="corbel light">Fakultas</font></td>
+					<td>
+						<select name="fakultas">
+							<option>Pilih Fakultas : </option>
+							<option value="FSTI">Fakultas Sains dan Informatika</option>
+							<option value="FT">Fakultas Teknik</option>
+							<option value="FH">Fakultas Hukum</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			
+			<br />
+			<hr width="400px" />
+			<br />
+			<input type="submit" value="Submit" >
+			<input type="reset" value="Reset">
+			<a href="index.html"> <button type="button" >Back to Index</button></a>
+			<hr width="800px" />
+			</center>
+			
+		</font>
+	</form>
+</body>
+</html>
